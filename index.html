@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FX Engineering</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/slide/camera.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/camera/1.3.4/css/camera.css">
+    <link rel="stylesheet" id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fire-cursor" id="fireCursor"></div>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-0 Topbar">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-white">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+                    <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+                    <span class="fs-5 fw-bold"><a href="tel:+91 92643 44447" style="color: #fff;">+91 92643
+                            44447</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#"><img src="img/Logo/FX Logo.png" alt="FX" width="100px"></a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <!-- <li><a href="#">About</a></li> -->
+
+                <li>
+        <a href="#" class="desktop-item">About Us</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Products</label>
+        <ul class="drop-menu">
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="team.html">Our Team</a></li>
+        </ul>
+      </li>
+                <li>
+                    <a href="#" class="desktop-item">Products</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Products</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header><a href="fire-extinguishers.html">Fire Extinguisher</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">ABC Dry Powder Type</a></li>
+                                    <li><a href="#">Carbon Dioxide (CO₂)</a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row">
+                                <header><a href="fire-extinguishers.html">Fire Hydrant System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                             <div class="row">
+                                <header><a href="sprinkler-system.html">Sprinkler System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                             <div class="row">
+                                <header><a href="Fire-alarm-and-detection-system.html">Fire Alarm & Detection System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                              <div class="row">
+                                <header><a href="Fire-suppression-system.html">Fire Suppression System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="Safety-signages.html">Safety Signages & Accessories</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <!-- <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 Years of Working Experience</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Industrial Solution Providing Company</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 Years of Working Experience</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Best Reliable Industry Solution</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+
+    <section class="slider">
+        <ul>
+            <li>
+                <article class="center-y p-5">
+                    <h1 class="big title display-1">Occupational Health</h1>
+                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <a href="#about" class="btn btn_3">More about us</a>
+                </article>
+            </li>
+            <li>
+                <article class="center-y p-5">
+                    <h1 class="big title display-1"><em>Fire Fighting</em> Spill Response.</h1>
+                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn btn_3">View Issues</a>
+                </article>
+            </li>
+            <li>
+                <article class="center-y p-5">
+                    <h1 class="big title display-1"><em>Fire Fighting</em> Spill Response.</h1>
+                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn btn_3">View Issues</a>
+                </article>
+            </li>
+            <aside>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </aside>
+        </ul>
+    </section>
+    <!-- Carousel End -->
+
+    <!-- Products  -->
+    <div class="container my-5 mb-5 Products p-4">
+        <p class="fw-medium text-uppercase text-primary mb-2">Comprehensive Fire Protection Range</p>
+        <h1 class="display-5 mb-4 pb-4">Our Fire Safety Products</h1>
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-4 products-card">
+                <div class="Product-card h-100">
+                    <img src="img/fire extinguishers.jpg" class="card-img-top" alt="Fire Suppression Systems">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Fire Suppression Systems</h5>
+                        <p class="card-text">
+                            We offer fire suppression system such as CO2, Kitchen, Inert Gas, Tube Base, Clean Agent
+                            etc.
+                        </p>
+                        <a href="#" class="btn btn-danger">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 products-card">
+                <div class="Product-card h-100">
+                    <img src="img/Foam System.avif" class="card-img-top" alt="Products / Appliances">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Products / Appliances</h5>
+                        <p class="card-text">
+                            We offer products such as Fire Extinguishers, Control Units, Sprinkler Hose, Heat Detection
+                            Tubing etc.
+                        </p>
+                        <a href="#" class="btn btn-danger">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 products-card">
+                <div class="Product-card h-100">
+                    <img src="img/Fire-Sprinkler-System.webp" class="card-img-top"
+                        alt="High Pressure Seamless Cylinders">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">High Pressure Seamless Cylinders</h5>
+                        <p class="card-text">
+                            We offer High Pressure Seamless Cylinders such as Industrial Use Cylinders, Fire
+                            Extinguisher Cylinders.
+                        </p>
+                        <a href="#" class="btn btn-danger">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Clients -->
+    <div class="container-fluid p-0 mb-6 pt-5 fadeIn mb-5" data-wow-delay="0.1s">
+        <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+            <h1 class="mb-5 mt-5">Our Valued Partners</h1>
+        </div>
+        <div class="client-slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="py-5 bg-dark About">
+        <!-- <img src="img/firefighting equipment/3.png" alt="" class="floating-img"> -->
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <!-- Left Side -->
+                <div class="col-lg-6">
+                    <h6 class="text-uppercase text-muted text-white">How can we help you</h6>
+                    <h2 style="color: #fff"><span class="highlight-red">Who</span> We Are ?</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
+                    </p>
+
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-red">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="section-title vertical-line">
+                        <div class="row">
+                            <div class="col-md-12">
+                                        <h6 class="text-uppercase text-muted text-white">Our Products Application</h6>
+                    <h2 style="color: #fff"><span class="highlight-red">Industries</span> We Serve</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+                        <div class="img-responsive" data-src="img/4.5 Kg Co2 Type.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                Oil & Gas
+                            </div>
+                        </div>
+                        <div class="img-responsive" data-src="img/4.5 Kg Co2 Type.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                Hotel
+                            </div>
+                        </div>
+                        <div class="img-responsive" data-src="img/1.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                Railway
+                            </div>
+                        </div>
+                        <div class="img-responsive" data-src="img/2.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                Shipping
+                            </div>
+                        </div>
+                        <div class="img-responsive" data-src="img/1.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                IT Sector
+                            </div>
+                        </div>
+                        <div class="img-responsive" data-src="img/4.5 Kg Co2 Type.jpg">
+                            <div class="camera_caption fadeFromBottom">
+                                Steel
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #camera_wrap_1 -->
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+  
+
+    <!-- Services -->
+    <!-- <div class="service mt-4 p-4">
+        <div class="bdt-timeline-container">
+            <div class="upk-salf-slider-wrapper">
+                <div class="swiper-container mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="upk-salf-item swiper-slide">
+                            <div class="upk-salf-image-wrap">
+                                <img class="upk-xanc-img" src="img/Foam System.avif" />
+                            </div>
+                            <div class="upk-salf-content-wrap">
+                                <h2><span class="highlight-red">Our </span>Service</h2>
+                                <h3 class="upk-salf-title" data-swiper-parallax-y="-150"
+                                    data-swiper-parallax-duration="1200">
+                                    we help you make modern interior
+                                </h3>
+                                <div class="upk-salf-desc" data-swiper-parallax-y="-200"
+                                    data-swiper-parallax-duration="1400">we will help you to make an elegant and
+                                    luxurius interrior designed by porfessional interrior designer.</div>
+                                <div class="upk-salf-button" data-swiper-parallax-y="-300"
+                                    data-swiper-parallax-duration="1500">
+                                    <a class="link link--arrowed" href="#">read more
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28"
+                                            height="28" viewBox="0 0 32 32">
+                                            <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                                stroke-miterlimit="10">
+                                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                                <path class="arrow-icon--arrow"
+                                                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upk-salf-item swiper-slide">
+                            <div class="upk-salf-image-wrap">
+                                <img class="upk-xanc-img" src="img/Fire-Sprinkler-System.webp" />
+                            </div>
+                            <div class="upk-salf-content-wrap">
+                                <h2><span class="highlight-red">Our </span>Service</h2>
+
+                                <h3 class="upk-salf-title" data-swiper-parallax-y="-150"
+                                    data-swiper-parallax-duration="1200">
+                                    we help you make modern interior
+                                </h3>
+                                <div class="upk-salf-desc" data-swiper-parallax-y="-200"
+                                    data-swiper-parallax-duration="1400">we will help you to make an elegant and
+                                    luxurius interrior designed by porfessional interrior designer.</div>
+
+                                <div class="upk-salf-button" data-swiper-parallax-y="-300"
+                                    data-swiper-parallax-duration="1500">
+                                    <a class="link link--arrowed" href="#">read more
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28"
+                                            height="28" viewBox="0 0 32 32">
+                                            <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                                stroke-miterlimit="10">
+                                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                                <path class="arrow-icon--arrow"
+                                                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upk-salf-item swiper-slide">
+                            <div class="upk-salf-image-wrap">
+                                <img class="upk-xanc-img" src="img/Hydarnt system.webp" />
+                            </div>
+                            <div class="upk-salf-content-wrap">
+                                <h2><span class="highlight-red">Our </span>Service</h2>
+                                <h3 class="upk-salf-title" data-swiper-parallax-y="-150"
+                                    data-swiper-parallax-duration="1200">
+                                    we help you make modern interior
+                                </h3>
+                                <div class="upk-salf-desc" data-swiper-parallax-y="-200"
+                                    data-swiper-parallax-duration="1400">we will help you to make an elegant and
+                                    luxurius interrior designed by porfessional interrior designer.</div>
+
+                                <div class="upk-salf-button" data-swiper-parallax-y="-300"
+                                    data-swiper-parallax-duration="1500">
+                                    <a class="link link--arrowed" href="#">read more
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28"
+                                            height="28" viewBox="0 0 32 32">
+                                            <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                                stroke-miterlimit="10">
+                                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                                <path class="arrow-icon--arrow"
+                                                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upk-salf-item swiper-slide">
+                            <div class="upk-salf-image-wrap">
+                                <img class="upk-xanc-img" src="img/fire extinguisher.png" />
+                            </div>
+                            <div class="upk-salf-content-wrap">
+                                <h2><span class="highlight-red">Our </span>Service</h2>
+                                <h3 class="upk-salf-title" data-swiper-parallax-y="-150"
+                                    data-swiper-parallax-duration="1200">
+                                    we help you make modern interior
+                                </h3>
+                                <div class="upk-salf-desc" data-swiper-parallax-y="-200"
+                                    data-swiper-parallax-duration="1400">we will help you to make an elegant and
+                                    luxurius interrior designed by porfessional interrior designer.</div>
+
+                                <div class="upk-salf-button" data-swiper-parallax-y="-300"
+                                    data-swiper-parallax-duration="1500">
+                                    <a class="link link--arrowed" href="#">read more
+                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28"
+                                            height="28" viewBox="0 0 32 32">
+                                            <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                                stroke-miterlimit="10">
+                                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                                <path class="arrow-icon--arrow"
+                                                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="upk-salf-nav-pag-wrap">
+
+                    <div class="upk-salf-navigation">
+                        <div class="upk-button-prev upk-n-p">
+                            <a class="link link--arrowed" href="#">
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                    viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                        stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow"
+                                            d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="upk-button-next upk-n-p">
+                            <a class="link link--arrowed" href="#">
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                    viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round"
+                                        stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow"
+                                            d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="upk-salf-pagi-wrap">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container py-5 mt-4">
+        <div class="row g-4 align-items-start">
+
+            <!-- Left Side (Awards) -->
+            <div class="col-lg-6 col-md-12">
+                <h2><b>Awards & <span>Achievements</span></b></h2>
+                <hr class="text-danger" style="width: 60px; height: 3px; opacity:1;">
+
+                <div class="card shadow-sm">
+                    <img src="https://greenwoodhigh.edu.in/wp-content/uploads/2022/03/award-1.jpg" class="card-img-top"
+                        alt="Award Image">
+                    <!-- <div class="card-body">
+          <h6 class="card-title fw-bold">Winner - Fire Suppression System of the Year</h6>
+          <p class="card-text">Kitchen Fire Suppression System <br> Swastik Synergy Engineering Pvt. Ltd.</p>
+        </div> -->
+                </div>
+            </div>
+
+            <!-- Right Side (Comment Form) -->
+            <div class="col-lg-6 col-md-12">
+                <h2><b>Leave Your <span>Comment</span> Here</b></h2>
+                <hr class="text-danger" style="width: 60px; height: 3px; opacity:1;">
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Enter Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Enter Email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Enter Phone">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Enter Subject">
+                        </div>
+                    </div>
+
+                    <textarea class="form-control" rows="4" placeholder="Enter Message"></textarea>
+                    <button type="submit" class="btn btn-custom mt-2">SEND YOUR MESSAGE</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- About Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row gx-3 h-100">
+                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="img/about-1.jpg">
+                        </div>
+                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="img/about-2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
+                    <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="flex-shrink-0 bg-primary p-4">
+                            <h1 class="display-2">25</h1>
+                            <h5 class="text-white">Years of</h5>
+                            <h5 class="text-white">Experience</h5>
+                        </div>
+                        <div class="ms-4">
+                            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Chemical Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-envelope-open text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <p class="mb-2">Email us</p>
+                                    <h5 class="mb-0">info@example.com</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <p class="mb-2">Call us</p>
+                                    <h5 class="mb-0">+012 345 6789</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <!-- <div class="container-fluid facts my-5 p-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="text-center border p-5">
+                    <i class="fa fa-certificate fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="text-center border p-5">
+                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="text-center border p-5">
+                    <i class="fa fa-users fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="text-center border p-5">
+                    <i class="fa fa-check-double fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative me-lg-4">
+                        <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                        <span
+                            class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
+                            style="width: 120px; height: 120px;"></span>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="fw-medium text-uppercase text-primary mb-2">Why Choosing Us!</p>
+                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div class="row gy-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>Experienced Workers</h4>
+                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                                        dolore erat amet</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>Reliable Industrial Services</h4>
+                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                                        dolore erat amet</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>24/7 Customer Support</h4>
+                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                                        dolore erat amet</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Features End -->
+
+
+
+
+    <!-- Service Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
+                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Civil & Gas Engineering</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Power & Energy Engineering</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Plumbing & Water Treatment</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Service End -->
+
+
+    <!-- Project Start -->
+    <!-- <div class="container-fluid bg-dark pt-5 my-5 px-0">
+        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
+            <h1 class="display-5 text-white mb-5">See What We Have Completed Recently</h1>
+        </div>
+        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-1.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Auto Engineering</h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-2.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Civil Engineering</h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-3.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Gas Engineering</h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-4.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Power Engineering</h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-5.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Energy Engineering</h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/project-6.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Water Engineering</h5>
+                </div>
+            </a>
+        </div>
+    </div> -->
+    <!-- Project End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
+                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px;">
+                                <h5>Rob Miller</h5>
+                                <span class="text-primary">CEO & Founder</span>
+                                <div class="team-social">
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px;">
+                                <h5>Adam Crew</h5>
+                                <span class="text-primary">Project Manager</span>
+                                <div class="team-social">
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px;">
+                                <h5>Peter Farel</h5>
+                                <span class="text-primary">Engineer</span>
+                                <div class="team-social">
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Testimonial</p>
+                <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                            clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Office</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Products</a>
+                    <a class="btn btn-link" href="">Projects</a>
+                    <a class="btn btn-link" href="">Catalogue</a>
+                    <a class="btn btn-link" href="">Certification</a>
+                    <a class="btn btn-link" href="">Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Products</h5>
+                    <a class="btn btn-link" href="">Fire Extinguisher</a>
+                    <a class="btn btn-link" href="">High Pressure Watermist System</a>
+                    <a class="btn btn-link" href="">Data Center Fire Fighting System</a>
+                    <a class="btn btn-link" href="">SYNERGY - Control Units, Releasing Device - UL LISTED</a>
+                    <a class="btn btn-link" href="">SYNERGY - Heat Detection Tubing - UL LISTED</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Business Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container text-center">
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.
+            </p>
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://http://brandmasterss.com/">Brand
+                    Masterss</a></p>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/camera/1.3.4/scripts/jquery.camera.min.js"></script>
+     <script>
+    // Yeh patch plugin load hone ke baad daal do
+(function() {
+  var supportsPassive = false;
+  try {
+    var opts = Object.defineProperty({}, 'passive', {
+      get: function() {
+        supportsPassive = true;
+      }
+    });
+    window.addEventListener("test", null, opts);
+  } catch (e) {}
+
+  if (supportsPassive) {
+    var addEvent = EventTarget.prototype.addEventListener;
+    EventTarget.prototype.addEventListener = function(type, listener, options) {
+      if (type === "touchstart" || type === "touchmove" || type === "wheel") {
+        if (options === undefined) {
+          options = { passive: false };
+        } else if (typeof options === "boolean") {
+          options = { capture: options, passive: false };
+        } else if (typeof options === "object") {
+          options.passive = false;
+        }
+      }
+      addEvent.call(this, type, listener, options);
+    };
+  }
+})();
+
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/jquery-plugin-collection.js"></script>
+    <script src="lib/slide/camera.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+   
+
+
+    <script>
+  jQuery(function(){
+    jQuery('#camera_wrap_1').camera({
+        height: '400px',          // slider height
+        loader: 'none',           // no preloader
+        pagination: true,        // remove small dots
+        thumbnails: false,        // remove thumbnails
+        hover: false,             // no pause on hover
+        playPause: false,         // no play/pause button
+        navigation: true,        // hide left/right arrows
+        // fx: 'simpleFade',         // animation effect (fade like Swastik site)
+        time: 2500,               // slide display time (2.5 sec)
+        transPeriod: 1200         // transition speed
+    });
+  });
+</script>
+
+
+</body>
+
+</html>

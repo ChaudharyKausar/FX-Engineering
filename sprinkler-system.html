@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>FX Engineering</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <style>
+    /* Products Category Cards */
+    .product-card {
+      position: relative;
+      background: url('img/red-fire-flames-black-background_136670-3249.jpg') no-repeat center center/cover;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      color: #000;
+      overflow: hidden;
+      min-height: 350px;
+      transition: 0.3s all ease-in-out;
+      height: 380px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.02);
+    }
+
+    /* overlay on fire background */
+    .product-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.616);
+      border-radius: 12px;
+      z-index: 0;
+    }
+
+    .product-card h3 {
+      font-size: 20px;
+      margin-top: 8px;
+    }
+
+    .product-card p {
+      font-size: 14px;
+    }
+
+    .product-card h3,
+    .product-card p {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+    }
+
+    .glass-box {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.103);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 15px;
+    }
+
+    .glass-box img {
+      width: 120px;
+      filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.6));
+    }
+
+    /* About Products Category */
+    h1 {
+      color: #222222;
+    }
+
+    h2 {
+      color: #222222;
+      font-size: 22px;
+      margin-top: 14px
+    }
+
+    ol {
+      list-style-type: none;
+    }
+
+    ul li,
+    ol li {
+      margin-top: 4px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark px-0">
+    <div class="row g-0 d-none d-lg-flex">
+      <div class="col-lg-6 ps-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center text-white">
+          <span>Follow Us:</span>
+          <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-6 text-end">
+        <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+          <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+          <span class="fs-5 fw-bold">+012 345 6789</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+
+  <!-- Navbar Start -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#"><img src="img/Logo/FX Logo.png" alt="FX" width="100px"></a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <!-- <li><a href="#">About</a></li> -->
+
+                <li>
+        <a href="#" class="desktop-item">About Us</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Products</label>
+        <ul class="drop-menu">
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="team.html">Our Team</a></li>
+        </ul>
+      </li>
+                <li>
+                    <a href="#" class="desktop-item">Products</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Products</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header><a href="fire-extinguishers.html">Fire Extinguisher</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">ABC Dry Powder Type</a></li>
+                                    <li><a href="#">Carbon Dioxide (CO₂)</a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row">
+                                <header><a href="fire-extinguishers.html">Fire Hydrant System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                             <div class="row">
+                                <header><a href="sprinkler-system.html">Sprinkler System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                             <div class="row">
+                                <header><a href="Fire-alarm-and-detection-system.html">Fire Alarm & Detection System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+
+                              <div class="row">
+                                <header><a href="Fire-suppression-system.html">Fire Suppression System</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="Safety-signages.html">Safety Signages & Accessories</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Hydrant Valves</a></li>
+                                    <li><a href="#">Fire Brigade </a></li>
+                                    <li><a href="#">Modular Type</a></li>
+                                    <li><a href="#">Water / Foam Type</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+  <!-- Page Header Start -->
+  <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s"
+    style="background-image: url('img/Products\ background\ Banner\ 2.jpeg'); background-size: cover; background-position: center ;">
+    <div class="container py-5">
+      <h1 class="display-3 text-white animated slideInRight">Products</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb animated slideInRight mb-0">
+          <li class="breadcrumb-item text-primary"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Products</a></li>
+          <!-- <li class="breadcrumb-item active" aria-current="page">Company Profile</li> -->
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <div class="Products-section p-5" style="background:#f1f1f1;">
+    <h1 class="m-4"><span class="highlight-red">Sprinkler</span> System</h1>
+    <div class="row g-4 m-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-3 col-sm-6">
+        <a href="#">
+          <div class="product-card">
+            <div class="glass-box">
+              <img src="img/Products/pngimg.com - extinguisher_PNG20.png" alt="Fire Extinguisher">
+            </div>
+            <h3>Upright Sprinklers</h3>
+            <p>Mounted upright to protect warehouses and industrial areas with overhead fire risks.</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-3 col-sm-6">
+        <a href="#">
+          <div class="product-card">
+            <div class="glass-box">
+              <img src="img/Products/pngimg.com - extinguisher_PNG20.png" alt="Fire Extinguisher">
+            </div>
+            <h3>Pendent Sprinklers</h3>
+            <p>Installed on ceilings, ideal for offices, malls, and commercial spaces.</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-3 col-sm-6">
+        <a href="#">
+          <div class="product-card">
+            <div class="glass-box">
+              <img src="img/Products/pngimg.com - extinguisher_PNG20.png" alt="Fire Extinguisher">
+            </div>
+            <h3>Flexible Pipes for Sprinklers</h3>
+            <p>Flexible connections ensuring easy installation of sprinklers in false ceilings.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="mt-4 pt-5">
+    <!-- <img src="img/firefighting equipment/3.png" alt="" class="floating-img"> -->
+    <div class="container">
+      <div class="row align-items-center g-4">
+
+        <!-- Left Side -->
+        <div class="col-lg-12">
+          <h2>What is a Fire Sprinkler System?</h2>
+          <p>A Fire Sprinkler System is an automatic fire-fighting solution designed to detect, control, and extinguish fires at an early stage. It consists of sprinkler heads, pipelines, valves, and a pressurized water supply that gets activated instantly when the temperature rises due to fire.</p>
+          <p>Sprinklers are highly effective in protecting lives, assets, and property by controlling fire before it spreads. That is why fire sprinklers are mandatory in many commercial, residential, and industrial projects as per Indian fire safety norms.</p>
+
+          <h2>How Does a Fire Sprinkler System Work?</h2>
+          <ol>
+            <li><strong>Step 1: </strong>When the surrounding temperature reaches the pre-set limit, the sprinkler head activates.</li>
+            <li><strong> Step 2: </strong>Water is automatically discharged in the affected area.</li>
+            <li><strong>Step 3: </strong>Fire is controlled quickly before it grows into a major hazard.</li>
+            <li><strong>Step 4: </strong>Continuous water supply ensures reliability during emergencies.</li>
+          </ol>
+
+          <h2>Fire Sprinkler System Maintenance</h2>
+          <p>Regular inspection is essential for reliable operation. Our AMC (Annual Maintenance Contract) ensures your system is always fire-ready.</p>
+          <ul>
+            <li><strong>Monthly Inspections: </strong>Check valves, pumps, and pressure.</li>
+            <li><strong>Quarterly Testing: </strong>Flow test and sprinkler head inspection.</li>
+            <li><Strong>Annual Service: </Strong>Full system flushing, performance testing & replacement if required.</li>
+            <li><strong>24/7 Support:</strong>Quick response for emergency repairs.</li>
+          </ul>
+
+          <h2>Why Choose FX Engineering Fire Sprinkler Systems?</h2>
+          <ul>
+            <li>ISO-certified and ISI-marked products</li>
+            <li>Designed as per NBC, NFPA & Indian fire norms</li>
+            <li>Automatic and reliable fire suppression</li>
+            <li>Customized solutions for industries, offices, malls & residential projects</li>
+            <li>Professional installation, testing & commissioning</li>
+            <li>Comprehensive after-sales & AMC support</li>
+          </ul>
+
+        </div>
+
+        <!-- Right Side -->
+        <!-- <div class="col-lg-6">
+                    <div class="image-container mt-3">
+                        <img src="img/bg image.jpg" class="img-fluid" alt="Industry Image">
+                    </div>
+                </div> -->
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white mb-4">Our Office</h5>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <div class="d-flex pt-3">
+            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Products</a>
+          <a class="btn btn-link" href="">Projects</a>
+          <a class="btn btn-link" href="">Catalogue</a>
+          <a class="btn btn-link" href="">Certification</a>
+          <a class="btn btn-link" href="">Contact</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white mb-4">Products</h5>
+          <a class="btn btn-link" href="">Fire Extinguisher</a>
+          <a class="btn btn-link" href="">High Pressure Watermist System</a>
+          <a class="btn btn-link" href="">Data Center Fire Fighting System</a>
+          <a class="btn btn-link" href="">SYNERGY - Control Units, Releasing Device - UL LISTED</a>
+          <a class="btn btn-link" href="">SYNERGY - Heat Detection Tubing - UL LISTED</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white mb-4">Business Hours</h5>
+          <p class="mb-1">Monday - Friday</p>
+          <h6 class="text-light">09:00 am - 07:00 pm</h6>
+          <p class="mb-1">Saturday</p>
+          <h6 class="text-light">09:00 am - 12:00 pm</h6>
+          <p class="mb-1">Sunday</p>
+          <h6 class="text-light">Closed</h6>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright bg-dark py-4">
+    <div class="container text-center">
+      <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.
+      </p>
+      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+      <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://http://brandmasterss.com/">Brand
+          Masterss</a></p>
+    </div>
+  </div>
+  <!-- Copyright End -->
+
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
